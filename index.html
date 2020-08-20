@@ -3,9 +3,10 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <!-- this line autocompleted. not sure if relevant -->
     <title>Java Calculator</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <buttonnk rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
 <body>
@@ -16,26 +17,30 @@
     <!-- turns out when changing list items "li" all occurences, text is included.
          Changed "li" to "buttons" and saw it changed my name "Cbuttont" -->
 <main>
-    <div class="calculator-buttons">
-        <button class = "number-buttons">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
+    <div class="calculator-layout">
+        <!-- <div class = "number-buttons"> -->
+            <button>C</button>
+            <div id="output"></div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>/</button>
             <button>4</button>
             <button>5</button>
             <button>6</button>
-            <button>7</button>
-            <button>9</button>
-        </button>
+            <button>*</button>
+        <!-- </div> -->
 
-        <button class="function-buttons">
-            <button>.</button>
-            <button>x</button>
-            <button>/</button>
-            <button>+</button>
+        <!-- <div class="function-buttons"> -->
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
             <button>-</button>
-            <button>c</button>
-        </button>
+            <button>0</button>
+            <button>.</button>
+            <button>=</button>
+            <button>+</button>
+        <!-- </div> -->
 
     </div>
 </main>

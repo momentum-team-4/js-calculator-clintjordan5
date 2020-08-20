@@ -6,18 +6,30 @@
 }
 
 
-.calculator-buttons {
+.calculator-layout {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: springgreen;
-color: white;
+    
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-padding: 2rem;
+padding: 2rem ;
+border: 10px ;
 border-color: #ffffff;
 border-width: medium;
 border-style: none none solid none;
+max-width: 600px;
 }
 
-.button {
-    background-color: springgreen;
-    display: block;
+.number-buttons {
+    background-color: orange;
+    /* display: grid; */
+}
+
+.function-buttons {
+    border:100px;
+}
+
+#output {
+    background-color: red;
+grid-column: 2 / 5;
 }
