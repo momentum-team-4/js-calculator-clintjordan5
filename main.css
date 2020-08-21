@@ -9,27 +9,25 @@
 .calculator-layout {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: springgreen;
-    
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black ;
 padding: 2rem ;
 border: 10px ;
 border-color: #ffffff;
 border-width: medium;
 border-style: none none solid none;
-max-width: 600px;
+width: 600px;
+height: 700px;
 }
 
-.number-buttons {
-    background-color: orange;
-    /* display: grid; */
-}
+.calc-buttons {
+ background-color: #eba400;
+} 
 
-.function-buttons {
-    border:100px;
+.function-buttons{
+    background-color:#f7cc68;
 }
 
 #output {
-    background-color: red;
+    background-color:#e3ebdf;
 grid-column: 2 / 5;
 }
