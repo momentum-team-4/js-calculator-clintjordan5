@@ -53,7 +53,7 @@ number8.addeventListener ("click", function () {
 })
 
 let number9 = document.querySelector (".number9")
-number1.addeventListener ("click", function () {
+number9.addeventListener ("click", function () {
     display.textcontent +- "9"
     console.log (9)
 })
