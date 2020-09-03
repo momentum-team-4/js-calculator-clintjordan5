@@ -1,4 +1,5 @@
 let display = document.querySelector ("#output")
+
 let number0 = document.querySelector (".number0")
 number0.addEventListener ("click", function () {
     display.textContent += "0"
@@ -59,6 +60,54 @@ number9.addEventListener ("click", function () {
     console.log (9)
 })
 
-// note - wrote out queryselector and event listener for 1-9. 
-// looking at console for index.html the error is 
-// Uncaught TypeError: Cannot read property 'addEventListener' of null at main.js:2
+// using querySelector to display numbers in calculator
+// when the number is clicked, it will output into "display" which is the area defined in the HTML
+// was able to verify numbers with console log, which helped build the remainder of the calculator
+
+const clear = document.querySelector (".letterC")
+
+clear.addEventListener("click", function () {
+    display.textContent = ""
+})
+
+// made a constant for the clear button. when clicking "C" it will have a blank output in the display
+
+const equal = document.querySelector (".equals")
+
+equal.addEventListener("click", function(){
+    let compute = display.textContent
+    let total = eval(compute)
+    display.textContent = total
+})
+
+// made a function for the equal button. when clicked, it will compute what is displayed
+// the total will evaluate what is being displayed
+
+
+
+let divide = document.querySelector (".division")
+divide.addEventListener ("click", function () {
+    display.textContent += "/"
+})
+
+let multiply = document.querySelector (".multiplication")
+multiply.addEventListener ("click", function () {
+    display.textContent += "*"
+})
+
+let subtract = document.querySelector (".subtraction")
+subtract.addEventListener ("click", function () {
+    display.textContent += "-"
+})
+
+let plus = document.querySelector (".addition")
+plus.addEventListener ("click", function () {
+    display.textContent += "+"
+})
+
+let decimal = document.querySelector (".decimal")
+decimal.addEventListener ("click", function () {
+    display.textContent += "."
+})
+
+// once numbers and clear / equal functions are visible, added buttons for divide, multiply, subtract, add, divide, and decimal

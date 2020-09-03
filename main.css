@@ -17,17 +17,21 @@ border-width: medium;
 border-style: none none solid none;
 width: 600px;
 height: 700px;
+border-radius: 20px;
 }
 
 .calc-buttons {
  background-color: #eba400;
+ border-radius: 15 px;
 } 
 
 .function-buttons{
     background-color:#f7cc68;
+    border-radius: 15 px;
 }
 
 #output {
     background-color:#e3ebdf;
 grid-column: 2 / 5;
+border-radius: 15 px;
 }
