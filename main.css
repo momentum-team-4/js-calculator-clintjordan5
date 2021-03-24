@@ -3,6 +3,7 @@
     margin: 0 ;
     padding: 0 ;
     box-sizing: border-box;
+    font-size: x-large;
 }
 
 
@@ -21,12 +22,12 @@ border-radius: 20px;
 }
 
 .calc-buttons {
- background-color: #eba400;
+ background-color: #43eb00;
  border-radius: 15 px;
 } 
 
 .function-buttons{
-    background-color:#f7cc68;
+    background-color:#68b7f7;
     border-radius: 15 px;
 }
 
